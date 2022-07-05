@@ -22,7 +22,7 @@
 
 ::before,
 ::after {
-  --tw-content: '';
+  --tw-content: "";
 }
 
 /*
@@ -40,9 +40,11 @@ html {
   -moz-tab-size: 4;
   /* 3 */
   -o-tab-size: 4;
-     tab-size: 4;
+  tab-size: 4;
   /* 3 */
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   /* 4 */
 }
 
@@ -79,7 +81,7 @@ Add the correct text decoration in Chrome, Edge, and Safari.
 
 abbr:where([title]) {
   -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
+  text-decoration: underline dotted;
 }
 
 /*
@@ -123,7 +125,8 @@ code,
 kbd,
 samp,
 pre {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
   /* 1 */
   font-size: 1em;
   /* 2 */
@@ -212,9 +215,9 @@ select {
 */
 
 button,
-[type='button'],
-[type='reset'],
-[type='submit'] {
+[type="button"],
+[type="reset"],
+[type="submit"] {
   -webkit-appearance: button;
   /* 1 */
   background-color: transparent;
@@ -261,7 +264,7 @@ Correct the cursor style of increment and decrement buttons in Safari.
 2. Correct the outline style in Safari.
 */
 
-[type='search'] {
+[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
   outline-offset: -2px;
@@ -346,14 +349,16 @@ textarea {
 2. Set the default placeholder color to the user's configured gray 400 color.
 */
 
-input::-moz-placeholder, textarea::-moz-placeholder {
+input::-moz-placeholder,
+textarea::-moz-placeholder {
   opacity: 1;
   /* 1 */
   color: #9ca3af;
   /* 2 */
 }
 
-input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
   opacity: 1;
   /* 1 */
   color: #9ca3af;
@@ -423,7 +428,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none;
 }
 
-*, ::before, ::after {
+*,
+::before,
+::after {
   --tw-translate-x: 0;
   --tw-translate-y: 0;
   --tw-rotate: 0;
@@ -431,16 +438,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-skew-y: 0;
   --tw-scale-x: 1;
   --tw-scale-y: 1;
-  --tw-pan-x:  ;
-  --tw-pan-y:  ;
-  --tw-pinch-zoom:  ;
+  --tw-pan-x: ;
+  --tw-pan-y: ;
+  --tw-pinch-zoom: ;
   --tw-scroll-snap-strictness: proximity;
-  --tw-ordinal:  ;
-  --tw-slashed-zero:  ;
-  --tw-numeric-figure:  ;
-  --tw-numeric-spacing:  ;
-  --tw-numeric-fraction:  ;
-  --tw-ring-inset:  ;
+  --tw-ordinal: ;
+  --tw-slashed-zero: ;
+  --tw-numeric-figure: ;
+  --tw-numeric-spacing: ;
+  --tw-numeric-fraction: ;
+  --tw-ring-inset: ;
   --tw-ring-offset-width: 0px;
   --tw-ring-offset-color: #fff;
   --tw-ring-color: rgb(59 130 246 / 0.5);
@@ -448,24 +455,24 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-ring-shadow: 0 0 #0000;
   --tw-shadow: 0 0 #0000;
   --tw-shadow-colored: 0 0 #0000;
-  --tw-blur:  ;
-  --tw-brightness:  ;
-  --tw-contrast:  ;
-  --tw-grayscale:  ;
-  --tw-hue-rotate:  ;
-  --tw-invert:  ;
-  --tw-saturate:  ;
-  --tw-sepia:  ;
-  --tw-drop-shadow:  ;
-  --tw-backdrop-blur:  ;
-  --tw-backdrop-brightness:  ;
-  --tw-backdrop-contrast:  ;
-  --tw-backdrop-grayscale:  ;
-  --tw-backdrop-hue-rotate:  ;
-  --tw-backdrop-invert:  ;
-  --tw-backdrop-opacity:  ;
-  --tw-backdrop-saturate:  ;
-  --tw-backdrop-sepia:  ;
+  --tw-blur: ;
+  --tw-brightness: ;
+  --tw-contrast: ;
+  --tw-grayscale: ;
+  --tw-hue-rotate: ;
+  --tw-invert: ;
+  --tw-saturate: ;
+  --tw-sepia: ;
+  --tw-drop-shadow: ;
+  --tw-backdrop-blur: ;
+  --tw-backdrop-brightness: ;
+  --tw-backdrop-contrast: ;
+  --tw-backdrop-grayscale: ;
+  --tw-backdrop-hue-rotate: ;
+  --tw-backdrop-invert: ;
+  --tw-backdrop-opacity: ;
+  --tw-backdrop-saturate: ;
+  --tw-backdrop-sepia: ;
 }
 
 .static {
@@ -720,16 +727,13 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-style: solid;
 }
 
-.border-gray{
+.border-gray {
   border-color: var(--gray);
 }
 
-.border-graydark{
+.border-graydark {
   border-color: var(--graydark);
 }
-
-
-
 
 .block {
   display: block;
@@ -744,7 +748,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .flex-1 {
-  flex: 1 1 0%; 
+  flex: 1 1 0%;
 }
 
 .basis-70 {
@@ -754,8 +758,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .basis-auto {
   flex-basis: auto;
 }
-
-
 
 .hidden {
   display: none;
@@ -827,7 +829,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 7rem;
 }
 
-
 .h-8 {
   height: 2rem;
 }
@@ -878,6 +879,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .justify-center {
   justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
 }
 
 .justify-evenly {
@@ -1060,7 +1069,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-top: 2.5rem;
 }
 
-
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -1199,9 +1207,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   --graylight: #cdd7e3;
   --darkblack: #131722;
   --yellow: #f2c94c;
-  --graydark: #2A3441;
+  --graydark: #2a3441;
   --green: #6fcf97;
-  --orange: #F2994A;
+  --orange: #f2994a;
   --gray: #718298;
 }
 
@@ -1227,7 +1235,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 80px;
   left: 100px;
   top: 65px;
-  background: #18A2D9;
+  background: #18a2d9;
   filter: blur(100px);
   z-index: 0;
 }
@@ -1245,18 +1253,17 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .mb-\[-40px\] {
-    margin-bottom: -40px;
+  margin-bottom: -40px;
 }
 
 .hidden-card,
 .hidden-row {
-    display: none;
+  display: none;
 }
 
 .transition-all5 {
-  transition: .5s all;
+  transition: 0.5s all;
 }
-
 
 @media (min-width: 640px) {
   .sm\:block {
@@ -1364,14 +1371,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   .md\:flex-row {
     flex-direction: row;
   }
-  
+
   .md\:self-auto {
     align-self: auto;
   }
 
   .md\:text-5xl {
-    	font-size: 3rem; /* 48px */
-      line-height: 1;
+    font-size: 3rem; /* 48px */
+    line-height: 1;
   }
 
   .md\:gap-6 {
@@ -1383,8 +1390,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   .md\:text-4xl {
-    font-size: 2.25rem; 
-    line-height: 2.5rem; 
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 
   .md\:mb-\[-225px\] {
@@ -1407,11 +1414,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     display: flex;
   }
 
-  #show-more, 
+  #show-more,
   #show-more-rows {
     display: none;
   }
-
 }
 
 @media (min-width: 1024px) {
@@ -1477,6 +1483,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:ml-40 {
     margin-left: 10rem;
+  }
+
+  .lg\:mr-8 {
+    margin-right: 2rem;
+  }
+
+  .lg\:mr-10 {
+    margin-right: 2.5rem;
+  }
+
+  .lg\:mr-12 {
+    margin-right: 3rem;
   }
 
   .lg\:block {
@@ -1588,6 +1606,34 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-left: 5rem;
   }
 
+  .xl\:mr-0 {
+    margin-right: 0px;
+  }
+
+  .xl\:mr-16 {
+    margin-right: 4rem;
+  }
+
+  .xl\:mr-32 {
+    margin-right: 8rem;
+  }
+
+  .xl\:mr-24 {
+    margin-right: 6rem;
+  }
+
+  .xl\:mr-10 {
+    margin-right: 2.5rem;
+  }
+
+  .xl\:ml-16 {
+    margin-left: 4rem;
+  }
+
+  .xl\:mr-12 {
+    margin-right: 3rem;
+  }
+
   .xl\:inline-block {
     display: inline-block;
   }
@@ -1671,4 +1717,3 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-right: 9rem;
   }
 }
-
