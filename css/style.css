@@ -22,7 +22,7 @@
 
 ::before,
 ::after {
-  --tw-content: "";
+  --tw-content: '';
 }
 
 /*
@@ -43,8 +43,8 @@ html {
   tab-size: 4;
   /* 3 */
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   /* 4 */
 }
 
@@ -126,7 +126,7 @@ kbd,
 samp,
 pre {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
-    "Liberation Mono", "Courier New", monospace;
+    'Liberation Mono', 'Courier New', monospace;
   /* 1 */
   font-size: 1em;
   /* 2 */
@@ -217,9 +217,9 @@ select {
 */
 
 button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
+[type='button'],
+[type='reset'],
+[type='submit'] {
   -webkit-appearance: button;
   /* 1 */
   background-color: transparent;
@@ -266,7 +266,7 @@ Correct the cursor style of increment and decrement buttons in Safari.
 2. Correct the outline style in Safari.
 */
 
-[type="search"] {
+[type='search'] {
   -webkit-appearance: textfield;
   /* 1 */
   outline-offset: -2px;
@@ -380,7 +380,7 @@ Set the default cursor for buttons.
 */
 
 button,
-[role="button"] {
+[role='button'] {
   cursor: pointer;
 }
 
@@ -581,10 +581,6 @@ video {
   position: relative;
 }
 
-.bottom-0 {
-  bottom: 0px;
-}
-
 .z-50 {
   z-index: 50;
 }
@@ -603,26 +599,6 @@ video {
 
 .col-span-2 {
   grid-column: span 2 / span 2;
-}
-
-.col-span-1 {
-  grid-column: span 1 / span 1;
-}
-
-.row-span-2 {
-  grid-row: span 2 / span 2;
-}
-
-.row-span-3 {
-  grid-row: span 3 / span 3;
-}
-
-.row-span-4 {
-  grid-row: span 4 / span 4;
-}
-
-.row-span-5 {
-  grid-row: span 5 / span 5;
 }
 
 .float-right {
@@ -789,8 +765,20 @@ video {
   margin-left: 0.75rem;
 }
 
-.mt-5 {
-  margin-top: 1.25rem;
+.mb-32 {
+  margin-bottom: 8rem;
+}
+
+.mt-\[44px\] {
+  margin-top: 44px;
+}
+
+.mt-24 {
+  margin-top: 6rem;
+}
+
+.mt-\[88px\] {
+  margin-top: 88px;
 }
 
 .mt-28 {
@@ -1111,6 +1099,10 @@ video {
   width: 340px;
 }
 
+.w-\[367px\] {
+  width: 367px;
+}
+
 .w-\[217px\] {
   width: 217px;
 }
@@ -1147,6 +1139,10 @@ video {
   max-width: 754px;
 }
 
+.max-w-\[319px\] {
+  max-width: 319px;
+}
+
 .max-w-\[330px\] {
   max-width: 330px;
 }
@@ -1157,6 +1153,10 @@ video {
 
 .max-w-\[376px\] {
   max-width: 376px;
+}
+
+.max-w-\[1490px\] {
+  max-width: 1490px;
 }
 
 .flex-1 {
@@ -1272,6 +1272,10 @@ video {
   gap: 1.5rem;
 }
 
+.gap-1 {
+  gap: 0.25rem;
+}
+
 .self-start {
   align-self: flex-start;
 }
@@ -1380,15 +1384,15 @@ video {
 }
 
 .bg-\[url\(\'\/imgs\/defi-overlay\.png\'\)\] {
-  background-image: url("/imgs/defi-overlay.png");
+  background-image: url('/imgs/defi-overlay.png');
 }
 
 .bg-\[url\(\'\/imgs\/img-gamefi-hero\.png\'\)\] {
-  background-image: url("/imgs/img-gamefi-hero.png");
+  background-image: url('/imgs/img-gamefi-hero.png');
 }
 
 .bg-\[url\(\'\/imgs\/img-nft-hero-mob\.png\'\)\] {
-  background-image: url("/imgs/img-nft-hero-mob.png");
+  background-image: url('/imgs/img-nft-hero-mob.png');
 }
 
 .bg-cover {
@@ -1438,6 +1442,11 @@ video {
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .px-6 {
@@ -1858,13 +1867,13 @@ video {
   accent-color: var(--primary);
 }
 
-input[type="text"]:focus {
+input[type='text']:focus {
   outline: 2px solid var(--gray);
 }
 
-input[type="text"]:-webkit-autofill,
-input[type="text"]:-webkit-autofill:hover,
-input[type="text"]:-webkit-autofill:focus {
+input[type='text']:-webkit-autofill,
+input[type='text']:-webkit-autofill:hover,
+input[type='text']:-webkit-autofill:focus {
   -webkit-text-fill-color: white;
   -webkit-box-shadow: 0 0 0px 1000px var(--graydark) inset;
   -webkit-transition: background-color 5000s ease-in-out 0s;
@@ -1872,13 +1881,13 @@ input[type="text"]:-webkit-autofill:focus {
   border: none;
 }
 
-input[type="email"]:focus {
+input[type='email']:focus {
   outline: 2px solid var(--gray);
 }
 
-input[type="email"]:-webkit-autofill,
-input[type="email"]:-webkit-autofill:hover,
-input[type="email"]:-webkit-autofill:focus {
+input[type='email']:-webkit-autofill,
+input[type='email']:-webkit-autofill:hover,
+input[type='email']:-webkit-autofill:focus {
   -webkit-text-fill-color: white;
   -webkit-box-shadow: 0 0 0px 1000px var(--graydark) inset;
   -webkit-transition: background-color 5000s ease-in-out 0s;
@@ -1930,7 +1939,7 @@ input[type="email"]:-webkit-autofill:focus {
   position: absolute;
 }
 
-[contentEditable="true"]:empty:before {
+[contentEditable='true']:empty:before {
   content: attr(placeholder);
   opacity: 0.6;
 }
@@ -2046,6 +2055,10 @@ input[type="email"]:-webkit-autofill:focus {
 
   .md\:mt-0 {
     margin-top: 0px;
+  }
+
+  .md\:mt-32 {
+    margin-top: 8rem;
   }
 
   .md\:mb-32 {
@@ -2188,6 +2201,18 @@ input[type="email"]:-webkit-autofill:focus {
     max-width: 376px;
   }
 
+  .md\:max-w-\[640px\] {
+    max-width: 640px;
+  }
+
+  .md\:max-w-\[620px\] {
+    max-width: 620px;
+  }
+
+  .md\:max-w-\[630px\] {
+    max-width: 630px;
+  }
+
   .md\:-translate-y-\[450px\] {
     --tw-translate-y: -450px;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y))
@@ -2251,7 +2276,7 @@ input[type="email"]:-webkit-autofill:focus {
   }
 
   .md\:bg-\[url\(\'\/imgs\/img-nft-hero2\.png\'\)\] {
-    background-image: url("/imgs/img-nft-hero2.png");
+    background-image: url('/imgs/img-nft-hero2.png');
   }
 
   .md\:pl-0 {
@@ -2288,6 +2313,10 @@ input[type="email"]:-webkit-autofill:focus {
 
   .md\:pr-10 {
     padding-right: 2.5rem;
+  }
+
+  .md\:pb-32 {
+    padding-bottom: 8rem;
   }
 
   .md\:text-left {
@@ -2406,10 +2435,6 @@ input[type="email"]:-webkit-autofill:focus {
     display: flex;
   }
 
-  .lg\:grid {
-    display: grid;
-  }
-
   .lg\:hidden {
     display: none;
   }
@@ -2452,6 +2477,18 @@ input[type="email"]:-webkit-autofill:focus {
 
   .lg\:max-w-\[340px\] {
     max-width: 340px;
+  }
+
+  .lg\:max-w-\[900px\] {
+    max-width: 900px;
+  }
+
+  .lg\:max-w-\[940px\] {
+    max-width: 940px;
+  }
+
+  .lg\:max-w-\[950px\] {
+    max-width: 950px;
   }
 
   .lg\:translate-x-\[350px\] {
@@ -2659,6 +2696,10 @@ input[type="email"]:-webkit-autofill:focus {
     max-width: 550px;
   }
 
+  .xl\:max-w-\[1290px\] {
+    max-width: 1290px;
+  }
+
   .xl\:-translate-y-\[500px\] {
     --tw-translate-y: -500px;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y))
@@ -2752,6 +2793,10 @@ input[type="email"]:-webkit-autofill:focus {
     margin-left: 5rem;
   }
 
+  .\32xl\:mr-auto {
+    margin-right: auto;
+  }
+
   .\32xl\:block {
     display: block;
   }
@@ -2792,16 +2837,32 @@ input[type="email"]:-webkit-autofill:focus {
     max-width: 1500px;
   }
 
-  .\32xl\:max-w-\[750px\] {
-    max-width: 750px;
-  }
-
   .\32xl\:max-w-\[640px\] {
     max-width: 640px;
   }
 
   .\32xl\:max-w-\[700px\] {
     max-width: 700px;
+  }
+
+  .\32xl\:max-w-\[1490px\] {
+    max-width: 1490px;
+  }
+
+  .\32xl\:max-w-\[1700px\] {
+    max-width: 1700px;
+  }
+
+  .\32xl\:max-w-\[1900px\] {
+    max-width: 1900px;
+  }
+
+  .\32xl\:max-w-\[1600px\] {
+    max-width: 1600px;
+  }
+
+  .\32xl\:max-w-\[1400px\] {
+    max-width: 1400px;
   }
 
   .\32xl\:grid-cols-12 {
@@ -2872,11 +2933,27 @@ input[type="email"]:-webkit-autofill:focus {
     margin-left: 10rem;
   }
 
+  .\33xl\:mr-auto {
+    margin-right: auto;
+  }
+
   .\33xl\:w-\[1000px\] {
     width: 1000px;
   }
 
   .\33xl\:max-w-\[1600px\] {
     max-width: 1600px;
+  }
+
+  .\33xl\:max-w-\[750px\] {
+    max-width: 750px;
+  }
+
+  .\33xl\:max-w-\[1900px\] {
+    max-width: 1900px;
+  }
+
+  .\33xl\:max-w-\[1700px\] {
+    max-width: 1700px;
   }
 }
